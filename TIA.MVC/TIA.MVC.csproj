@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-TIA.MVC-9fa1de97-6b31-4208-bbf4-3fc7ca62eae9</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TIA.Application\TIA.Application.csproj" />
+    <ProjectReference Include="..\TIA.Domain\TIA.Domain.csproj" />
+    <ProjectReference Include="..\TIA.Infra.Data\TIA.Persistence.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+
+</Project>
