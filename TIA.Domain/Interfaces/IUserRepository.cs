@@ -2,8 +2,8 @@
 
 namespace TIA.Domain.Interfaces
 {
-    public interface IUserRepository : IBaseRepository<Account>
+    public interface IUserRepository : IBaseRepository<User>
     {
-        Task<Account> GetByEmail(string email, CancellationToken cancellationToken);
+        Task<User> GetByEmail(string email, CancellationToken cancellationToken);
     }
 }

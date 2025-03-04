@@ -5,14 +5,14 @@ using TIA.Persistence.Context;
 
 namespace TIA.Persistence.Repositories
 {
-    public class UserRepository : BaseRepository<Account>, IUserRepository
+    public class UserRepository : BaseRepository<User>, IUserRepository
     {
         public UserRepository(AppDbContext context) : base(context)
         { }
 
-        public async Task<Account> GetByEmail(string email, CancellationToken cancellationToken)
+        public async Task<User> GetByEmail(string email, CancellationToken cancellationToken)
         {
-            return await Context.Users.FirstOrDefaultAsync(x => x.UserEmail == email, cancellationToken);
+            return await Context.Users.FirstOrDefaultAsync(x => x.Email == email, cancellationToken);
         }
     }
 }

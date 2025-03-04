@@ -6,7 +6,7 @@ namespace TIA.Domain.Entities
     public class AppFile : BaseEntity
     {
         public Guid UserId { get; set; }
-        public Account User { get; set; } = null!;
+        public User User { get; set; } = null!;
         public string? Folder { get; set; }
         public string Name { get; set; } = "Untitled";
         public string Summary { get; set; } = string.Empty;

@@ -2,11 +2,10 @@
 
 namespace TIA.Domain.Interfaces
 {
-    public interface IAccount
+    public interface IUser
     {
         string Username { get; set; }
-        string UserEmail { get; set; }
-        string UserRole { get; set; }
+        string Email { get; set; }
         ICollection<AppFile>? Files { get; set; }
     }
 }
