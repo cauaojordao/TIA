@@ -1,5 +1,4 @@
-**T.I.A.** é um gerador automático de material de estudo a partir de arquivos PDF. Ele transforma conteúdos em **resumos estruturados**, **questões de múltipla escolha** e **gabaritos**, tudo de forma rápida, prática e organizada.
-
+# T.I.A.
 ### ✨ Funcionalidades
 
 - 📄 Extração de texto de PDFs
