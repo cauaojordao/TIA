@@ -13,14 +13,14 @@
 
 2. Instale as dependências:
 ```bash
-pip install -r requirements.txt
+pip install google-generativeai PyPDF2 python-dotenv
 ```
 Rode o script principal:
 ```bash
-python tiahg.py
+python tiagemini.py
 ```
 
-Insira o caminho para o PDF quando solicitado e aguarde a mágica acontecer ✨
+Insira o caminho para o PDF quando solicitado.
 
 ### 📁 Estrutura dos arquivos gerados
 Ao final, será criada uma pasta com os seguintes arquivos:
