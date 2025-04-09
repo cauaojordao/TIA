@@ -13,7 +13,7 @@
 
 2. Instale as dependências:
 ```bash
-pip install google-generativeai PyPDF2 python-dotenv
+pip install xhtml2pdf PyPDF2 markdown2 google-generativeai python-dotenv
 ```
 Rode o script principal:
 ```bash
@@ -24,6 +24,8 @@ Insira o caminho para o PDF quando solicitado.
 
 ### 📁 Estrutura dos arquivos gerados
 Ao final, será criada uma pasta com os seguintes arquivos:
+
+- material_resumo.pdf
 
 - material_resumo.txt
 
@@ -43,3 +45,7 @@ Ao final, será criada uma pasta com os seguintes arquivos:
 - Biblioteca PyPDF2
 
 - Biblioteca python-dotenv
+
+- Biblioteca xhtml12pdf
+
+- Biblioteca markdown2
